@@ -49,7 +49,7 @@
   justify-content: center;
 }
 
-.container .pegination_box  .pegination_main {
+.container .pegination_box .pegination_main {
   width: auto;
   height: 24px;
 
@@ -58,22 +58,19 @@
   align-items: center;
 }
 
-.pegination_main  img {
+.pegination_main img {
   cursor: pointer;
 }
 
-.container .pegination_main .pegination_dot  {
+.container .pegination_main .pegination_dot {
   margin: 0px 20px;
   display: flex;
   flex-direction: row;
 }
 
-
-
 .container .pegination_dot .dot {
   width: 20px;
   height: 20px;
-
 
   display: flex;
   align-items: center;
@@ -85,7 +82,7 @@
   border: 2px solid #112137;
 }
 
-.container .pegination_dot .dot div{
+.container .pegination_dot .dot div {
   width: 4px;
   height: 4px;
 
@@ -601,7 +598,6 @@
   flex-direction: column;
 }
 
-
 .home_page .adv_frame {
   margin-top: 90px;
   width: 100%;
@@ -611,7 +607,6 @@
   align-items: center;
   justify-content: center;
 
-
   background-color: #e5edff;
   font-family: "Jost", sans-serif;
   font-style: normal;
@@ -620,3 +615,70 @@
   line-height: 26px;
   color: #0053f6;
 }
+
+
+.special_products {
+
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special_products .container {
+    flex-direction: column;
+}
+
+.special_products .container .tepasi {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.special_products .container .tepasi span{
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 22px;
+  color: #041e42;
+  text-transform: capitalize;
+}
+
+.special_products .container .tepasi strong {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+  text-transform: capitalize; 
+}
+
+.special_products .container .tepasi strong:hover{
+  border-bottom:2px solid #041e42;
+}
+
+.special_products .container .pasi {
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.special_products .container .pasi .chap_desc { 
+  position: relative;
+  margin-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
