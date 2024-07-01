@@ -166,14 +166,14 @@
   display: flex;
 }
 
-.container  .product_content_box {
+.container .product_content_box {
   padding: 5px 22px;
   width: 100%;
   height: auto;
   box-sizing: border-box;
 }
 
-.container .product_content_box .product_title {
+.container .product_title {
   font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -183,7 +183,7 @@
   color: #041e42;
 }
 
-.container .product_content_box .product_desc {
+.container .product_desc {
   margin-top: 7px;
   height: 56px;
   font-family: "Jost", sans-serif;
@@ -196,7 +196,7 @@
   overflow: hidden;
 }
 
-.container .product_content_box .review_box {
+.container .review_box {
   margin-top: 7px;
 
   display: flex;
@@ -216,6 +216,34 @@
   font-size: 14px;
   line-height: 22px;
   color: #626974;
+}
+
+.container .price_box {
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .price_box strong {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #041e42;
+}
+
+.container .price_box span {
+  margin-left: 10px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: line-through;
+  color: #041e42;
 }
 
 /* HEADER FRAME */
@@ -571,34 +599,6 @@
 
   display: flex;
   flex-direction: row;
-}
-
-.selling_producs_frame .product_content_box .price_box {
-  margin-top: 10px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.selling_producs_frame .price_box strong {
-  font-family: "Jost", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
-  color: #041e42;
-}
-
-.selling_producs_frame .price_box span {
-  margin-left: 10px;
-  font-family: "Jost", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  text-decoration: line-through;
-  color: #041e42;
 }
 
 .selling_producs_frame .navbar_frame .product_penigation_box {
